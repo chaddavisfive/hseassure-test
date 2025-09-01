@@ -1,0 +1,87 @@
+body {
+    background-color: #1b1b32;
+    margin:0;
+    font-family:tahoma;
+    color: white;
+    font-size: 16px;
+}
+
+fieldset {
+    
+    font-weight: bold;
+    display: block;
+    margin: 5px;
+    padding: 20px;
+    
+    
+    
+}
+
+label {
+    display:block;
+    margin: 0.5rem 0;
+    
+    
+}
+
+input {
+    width: 86%;
+    background-color: #3b3b4f;
+    color: white;
+    
+}
+
+label:last-of-type {
+    display:inline;
+}
+
+
+h1,p {
+    text-align: center;
+    font-weight: bold;
+
+}
+
+
+form {
+    width: 60vw;
+    max-width: 500px;
+    min-width: 300px;
+    margin: 0 auto;
+  
+  }
+  .inline {
+    vertical-align: middle;
+    width: unset;
+     margin: 0 0.5em 0 0;
+  }
+
+  .Age {
+    width: 86%;
+    display: block;
+  }
+
+  select {
+    height: 2em;
+    width: 86%;
+  }
+  
+  
+  input[type="submit"] {
+    display: block;
+    background-color:#3b3b4f;
+    border-color:white;
+    color: white;
+    min-width:300px;
+    width:60%;
+    height: 2em;
+    font-weight: bold;
+    margin: 1em auto;
+}
+
+input[type="checkbox"] {
+    margin-left: -35%;
+    
+    
+}
+

@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+background-color: white;
+display: flex;
+justify-content: space-between;
+align-items: center;
+height: 80px;
+}
+
+.navbar {
+    list-style-type:none;
+    display: flex;
+    justify-content: right;
+    padding: 14px;
+ 
+}
+.navbar li {
+    display: inline;
+    margin: 0 5px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #333;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.navbar a:hover {
+    color:  #007BFF;
+    border-radius: 25px;
+    
+}
+
+.logo a {
+    color:white;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    padding:20px;
+    font-size: 20px;  
+}
+
+.logo-part1 {
+    color: rgb(65, 173, 65);
+}
+
+
+.logo-part2 {
+    color: navy;
+    font-style: italic;
+}
+
+ .logo-part3 {
+    color:#333;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    padding:20px;
+}
+
+
+body {
+    background-color: rgb(221, 217, 210);
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    
+}
+
+.footer {
+    background-color: rgb(65, 173, 65);
+    color: white;
+    padding: 10px 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    text-align: center;
+}
+
+ .whatsapp-float {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #25d366;
+    border-radius: 50%;
+    padding: 12px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+    z-index: 1000;
+    transition: transform 0.2s ease-in-out;
+}
+
+.whatsapp-float:hover {
+    transform: scale(1.1);
+}
+
+.whatsapp-icon {
+    width: 40px;
+    height: 40px;
+}
+
+
+ 
+
+
+/*CAROUSEL*/

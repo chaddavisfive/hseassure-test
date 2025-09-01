@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fieldset Example</title>
+</head>
+<body>
+
+  <h1>Form with Fieldset Example</h1>
+
+  <form action="/submit-form" method="POST">
+    <!-- Fieldset grouping personal details -->
+    <fieldset>
+      <legend>Personal Information</legend>
+      
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+      <br><br>
+      
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+    </fieldset>
+    
+    <br>
+    
+    <!-- Fieldset grouping preference details -->
+     
+    <fieldset>
+      <legend>Preferences</legend>
+      
+      <label for="newsletter">Subscribe to Newsletter:</label>
+      <input type="checkbox" id="newsletter" name="newsletter">
+      
+      <br><br>
+      
+      <label for="updates">Receive Updates:</label>
+      <input type="checkbox" id="updates" name="updates">
+    </fieldset>
+    
+    <br>
+    
+    <button type="submit">Submit</button>
+  </form>
+
+</body>
+</html>
